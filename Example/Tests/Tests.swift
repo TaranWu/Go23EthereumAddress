@@ -1,5 +1,4 @@
 import XCTest
-import Go23EthereumAddress
 
 class Tests: XCTestCase {
     

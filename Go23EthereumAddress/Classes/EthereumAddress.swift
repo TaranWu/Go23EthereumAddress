@@ -2,8 +2,7 @@
 //  EthereumAddress.swift
 //  EthereumAddress
 //
-//  Created by Alex Vlasov on 25/10/2018.
-//  Copyright © 2018 Alex Vlasov. All rights reserved.
+//  Created by Taran.
 //
 
 import Foundation

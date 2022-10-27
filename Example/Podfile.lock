@@ -1,16 +1,23 @@
 PODS:
-  - Go23EthereumAddress (0.1.0)
+  - CryptoSwift (1.6.0)
+  - Go23EthereumAddress (0.1.0):
+    - CryptoSwift (~> 1.0)
 
 DEPENDENCIES:
   - Go23EthereumAddress (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
 
 EXTERNAL SOURCES:
   Go23EthereumAddress:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Go23EthereumAddress: a846703bb483271586b426ab042b6331ed71e2e1
+  CryptoSwift: 562f8eceb40e80796fffc668b0cad9313284cfa6
+  Go23EthereumAddress: 73fb9d27723c91abddb96cb99069ac34bdd2155e
 
-PODFILE CHECKSUM: f16cc9af6789f616ce87f162e2a132c6fc5297d8
+PODFILE CHECKSUM: 7196a25bd44fd25af4934566c409ead860e3a850
 
 COCOAPODS: 1.11.3
