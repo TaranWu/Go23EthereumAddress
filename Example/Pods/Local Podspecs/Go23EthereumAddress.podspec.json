@@ -1,0 +1,22 @@
+{
+  "name": "Go23EthereumAddress",
+  "version": "0.1.0",
+  "summary": "A short description of Go23EthereumAddress.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/TaranWu/Go23EthereumAddress",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TaranWu": "NA"
+  },
+  "source": {
+    "git": "https://github.com/TaranWu/Go23EthereumAddress.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Go23EthereumAddress/Classes/**/*"
+}

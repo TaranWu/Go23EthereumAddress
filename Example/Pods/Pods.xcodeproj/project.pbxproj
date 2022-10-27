@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EDEBC6E67CF13C76F993D583EA8E864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		22043182A03CA3C9995DE48F5571C7FB /* Go23EthereumAddress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57083CFDFEECDEE50A3F5C7AAC1F9FEB /* Go23EthereumAddress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A216A724F20EDD96CCE2B0DA416AFD7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3B2D578F928C15CF9B71E3EAD43B03 /* ReplaceMe.swift */; };
+		6857C0027BB16654D6AF45816F76E76B /* Pods-Go23EthereumAddress_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1306D57EA8503C39816F70E46B0FFF75 /* Pods-Go23EthereumAddress_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		689BECBB97E46676F948B69BE91D94E1 /* Pods-Go23EthereumAddress_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E492379CFFA4E009246E9572C913293 /* Pods-Go23EthereumAddress_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		732CCF8EFC038D64E4C53DAA3BCA3B9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		831FE2DCF7659B75C27EF471512BAE29 /* Pods-Go23EthereumAddress_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E54BB3B4322457FF167B11756FB9C9DA /* Pods-Go23EthereumAddress_Example-dummy.m */; };
+		859DB2DA7CCDF6BCA1E5E9342DDBE37E /* Go23EthereumAddress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 254EAD3B30CA641699BE8DF07177F2EE /* Go23EthereumAddress-dummy.m */; };
+		EB7EEC30AFC1CA742D8B75FE1B37B784 /* Pods-Go23EthereumAddress_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B148235D941501CCB7DAA8C0B16D6AFB /* Pods-Go23EthereumAddress_Tests-dummy.m */; };
+		FB5282A99ABF57409014A7D86F02169F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7336AD81D224164CCB9E7FF44AB92FDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DCD8F958782559836DDC287ECC63202;
+			remoteInfo = "Pods-Go23EthereumAddress_Example";
+		};
+		8D5FAD8857BE41AF9B17DC2711F0D1AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78893CD61C692FAAEF5238B2D840FA02;
+			remoteInfo = Go23EthereumAddress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B3B633FFE29BB08E977E445CC16EED /* Pods-Go23EthereumAddress_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Go23EthereumAddress_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		067E3BB55629C9330C45798F8884A326 /* Pods-Go23EthereumAddress_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Go23EthereumAddress_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1306D57EA8503C39816F70E46B0FFF75 /* Pods-Go23EthereumAddress_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Go23EthereumAddress_Tests-umbrella.h"; sourceTree = "<group>"; };
+		254EAD3B30CA641699BE8DF07177F2EE /* Go23EthereumAddress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Go23EthereumAddress-dummy.m"; sourceTree = "<group>"; };
+		282B1DCA4801BA1AE97ACD280DE243DC /* Go23EthereumAddress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Go23EthereumAddress.modulemap; sourceTree = "<group>"; };
+		2BFD733305FE6F737A147194B20927EF /* Pods-Go23EthereumAddress_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Go23EthereumAddress_Tests-Info.plist"; sourceTree = "<group>"; };
+		2E492379CFFA4E009246E9572C913293 /* Pods-Go23EthereumAddress_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Go23EthereumAddress_Example-umbrella.h"; sourceTree = "<group>"; };
+		40C0FA44DB8286B1D3984F40F34EDEA0 /* Go23EthereumAddress.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Go23EthereumAddress.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		47627D8BFFADD0563F860D5C77D7981F /* Pods-Go23EthereumAddress_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Go23EthereumAddress_Tests.modulemap"; sourceTree = "<group>"; };
+		4AB6C16DE8A4B4A1BE0F3B7B48D5541F /* Go23EthereumAddress */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Go23EthereumAddress; path = Go23EthereumAddress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51CE17DA2AAB5FFF211B5DD62EA00B17 /* Pods-Go23EthereumAddress_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Go23EthereumAddress_Example"; path = Pods_Go23EthereumAddress_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		549EB5C9F1582A8F48F27F2D6E81A06E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		57083CFDFEECDEE50A3F5C7AAC1F9FEB /* Go23EthereumAddress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Go23EthereumAddress-umbrella.h"; sourceTree = "<group>"; };
+		6EFAD2A1D2486BC3B013CB383EBC3693 /* Pods-Go23EthereumAddress_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Go23EthereumAddress_Example-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D5DAF8D5E3574A58E056F07AABB9ED5 /* Pods-Go23EthereumAddress_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Go23EthereumAddress_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		931C40F730187C1E95DB1C162D39AA5A /* Go23EthereumAddress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Go23EthereumAddress-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EDAA30652C5B0B855A7DCE94346D184 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A88F3A8370C099B233782A1B4F4E1804 /* Pods-Go23EthereumAddress_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Go23EthereumAddress_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B148235D941501CCB7DAA8C0B16D6AFB /* Pods-Go23EthereumAddress_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Go23EthereumAddress_Tests-dummy.m"; sourceTree = "<group>"; };
+		B32127D14BCDE87F1D194AA41F7E3D0F /* Pods-Go23EthereumAddress_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Go23EthereumAddress_Tests"; path = Pods_Go23EthereumAddress_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50652C1595669111BAD40EC1FDCD021 /* Pods-Go23EthereumAddress_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Go23EthereumAddress_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BF3B2D578F928C15CF9B71E3EAD43B03 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Go23EthereumAddress/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C23A92F362FD18BD39052C579D0B4C25 /* Pods-Go23EthereumAddress_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Go23EthereumAddress_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C47BDE39317A153ACE894C9F45D68253 /* Pods-Go23EthereumAddress_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Go23EthereumAddress_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6983604B8946F5A4E16651CE2EEC4E9 /* Pods-Go23EthereumAddress_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Go23EthereumAddress_Example.modulemap"; sourceTree = "<group>"; };
+		D2ADEA112DE313A98CE1AA65C2B44E07 /* Go23EthereumAddress-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Go23EthereumAddress-Info.plist"; sourceTree = "<group>"; };
+		D319A31223CC88AC2FDE70780E23424B /* Pods-Go23EthereumAddress_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Go23EthereumAddress_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF72592928F62664E88683523DD9C883 /* Go23EthereumAddress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Go23EthereumAddress.release.xcconfig; sourceTree = "<group>"; };
+		E54BB3B4322457FF167B11756FB9C9DA /* Pods-Go23EthereumAddress_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Go23EthereumAddress_Example-dummy.m"; sourceTree = "<group>"; };
+		F99A116BCF1848306ECBBE7A731F45CA /* Go23EthereumAddress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Go23EthereumAddress.debug.xcconfig; sourceTree = "<group>"; };
+		FC6D8BDAC9E1A82CD9EADD28BC79C746 /* Pods-Go23EthereumAddress_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Go23EthereumAddress_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D306E1226E523DC62AC61CC902E928D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732CCF8EFC038D64E4C53DAA3BCA3B9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44D9818995C6F61865662F1FA756526A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EDEBC6E67CF13C76F993D583EA8E864 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FF8651B091A51F33E5B8931653BC04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5282A99ABF57409014A7D86F02169F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03CA279502F8927D59AAAF845C642061 /* Go23EthereumAddress */ = {
+			isa = PBXGroup;
+			children = (
+				BF3B2D578F928C15CF9B71E3EAD43B03 /* ReplaceMe.swift */,
+				8475F3B21CB220F78CAE8AA4A5D3D8D1 /* Pod */,
+				7C97E90EFF9D67F268E3ECAA7F86FA8E /* Support Files */,
+			);
+			name = Go23EthereumAddress;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0F456F3DA9FBAC64924168EF3DC591F9 /* Pods-Go23EthereumAddress_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				47627D8BFFADD0563F860D5C77D7981F /* Pods-Go23EthereumAddress_Tests.modulemap */,
+				D319A31223CC88AC2FDE70780E23424B /* Pods-Go23EthereumAddress_Tests-acknowledgements.markdown */,
+				C47BDE39317A153ACE894C9F45D68253 /* Pods-Go23EthereumAddress_Tests-acknowledgements.plist */,
+				B148235D941501CCB7DAA8C0B16D6AFB /* Pods-Go23EthereumAddress_Tests-dummy.m */,
+				2BFD733305FE6F737A147194B20927EF /* Pods-Go23EthereumAddress_Tests-Info.plist */,
+				1306D57EA8503C39816F70E46B0FFF75 /* Pods-Go23EthereumAddress_Tests-umbrella.h */,
+				00B3B633FFE29BB08E977E445CC16EED /* Pods-Go23EthereumAddress_Tests.debug.xcconfig */,
+				A88F3A8370C099B233782A1B4F4E1804 /* Pods-Go23EthereumAddress_Tests.release.xcconfig */,
+			);
+			name = "Pods-Go23EthereumAddress_Tests";
+			path = "Target Support Files/Pods-Go23EthereumAddress_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7BB94A725B0790A4FB152FE7364A34EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99B071C6D39A102531BBC270448E1382 /* Pods-Go23EthereumAddress_Example */,
+				0F456F3DA9FBAC64924168EF3DC591F9 /* Pods-Go23EthereumAddress_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7C97E90EFF9D67F268E3ECAA7F86FA8E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				282B1DCA4801BA1AE97ACD280DE243DC /* Go23EthereumAddress.modulemap */,
+				254EAD3B30CA641699BE8DF07177F2EE /* Go23EthereumAddress-dummy.m */,
+				D2ADEA112DE313A98CE1AA65C2B44E07 /* Go23EthereumAddress-Info.plist */,
+				931C40F730187C1E95DB1C162D39AA5A /* Go23EthereumAddress-prefix.pch */,
+				57083CFDFEECDEE50A3F5C7AAC1F9FEB /* Go23EthereumAddress-umbrella.h */,
+				F99A116BCF1848306ECBBE7A731F45CA /* Go23EthereumAddress.debug.xcconfig */,
+				DF72592928F62664E88683523DD9C883 /* Go23EthereumAddress.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Go23EthereumAddress";
+			sourceTree = "<group>";
+		};
+		8475F3B21CB220F78CAE8AA4A5D3D8D1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				40C0FA44DB8286B1D3984F40F34EDEA0 /* Go23EthereumAddress.podspec */,
+				9EDAA30652C5B0B855A7DCE94346D184 /* LICENSE */,
+				549EB5C9F1582A8F48F27F2D6E81A06E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		99B071C6D39A102531BBC270448E1382 /* Pods-Go23EthereumAddress_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C6983604B8946F5A4E16651CE2EEC4E9 /* Pods-Go23EthereumAddress_Example.modulemap */,
+				C23A92F362FD18BD39052C579D0B4C25 /* Pods-Go23EthereumAddress_Example-acknowledgements.markdown */,
+				067E3BB55629C9330C45798F8884A326 /* Pods-Go23EthereumAddress_Example-acknowledgements.plist */,
+				E54BB3B4322457FF167B11756FB9C9DA /* Pods-Go23EthereumAddress_Example-dummy.m */,
+				FC6D8BDAC9E1A82CD9EADD28BC79C746 /* Pods-Go23EthereumAddress_Example-frameworks.sh */,
+				6EFAD2A1D2486BC3B013CB383EBC3693 /* Pods-Go23EthereumAddress_Example-Info.plist */,
+				2E492379CFFA4E009246E9572C913293 /* Pods-Go23EthereumAddress_Example-umbrella.h */,
+				7D5DAF8D5E3574A58E056F07AABB9ED5 /* Pods-Go23EthereumAddress_Example.debug.xcconfig */,
+				B50652C1595669111BAD40EC1FDCD021 /* Pods-Go23EthereumAddress_Example.release.xcconfig */,
+			);
+			name = "Pods-Go23EthereumAddress_Example";
+			path = "Target Support Files/Pods-Go23EthereumAddress_Example";
+			sourceTree = "<group>";
+		};
+		A504F7EE1E27E648872442C5ED14C3FE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03CA279502F8927D59AAAF845C642061 /* Go23EthereumAddress */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A504F7EE1E27E648872442C5ED14C3FE /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DA53F498DB73D6F32DFFFCC8EEC9CE2A /* Products */,
+				7BB94A725B0790A4FB152FE7364A34EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA53F498DB73D6F32DFFFCC8EEC9CE2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AB6C16DE8A4B4A1BE0F3B7B48D5541F /* Go23EthereumAddress */,
+				51CE17DA2AAB5FFF211B5DD62EA00B17 /* Pods-Go23EthereumAddress_Example */,
+				B32127D14BCDE87F1D194AA41F7E3D0F /* Pods-Go23EthereumAddress_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D375CC1AAACC24812B3BE2611DCD0F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689BECBB97E46676F948B69BE91D94E1 /* Pods-Go23EthereumAddress_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B356CC61CDD2FFC3DE059C70C2FA135 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6857C0027BB16654D6AF45816F76E76B /* Pods-Go23EthereumAddress_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B9DE58993E05DD59D71A39F022FC8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22043182A03CA3C9995DE48F5571C7FB /* Go23EthereumAddress-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5DCD8F958782559836DDC287ECC63202 /* Pods-Go23EthereumAddress_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1A34E124911126D2629D28155AB55B /* Build configuration list for PBXNativeTarget "Pods-Go23EthereumAddress_Example" */;
+			buildPhases = (
+				0D375CC1AAACC24812B3BE2611DCD0F7 /* Headers */,
+				601C3D91F1A78D4A1CAE1C5F551B9822 /* Sources */,
+				1D306E1226E523DC62AC61CC902E928D /* Frameworks */,
+				5B8855AB5A21347EA9765E6D50DBF23D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3105669A4864E6576076338C96812477 /* PBXTargetDependency */,
+			);
+			name = "Pods-Go23EthereumAddress_Example";
+			productName = Pods_Go23EthereumAddress_Example;
+			productReference = 51CE17DA2AAB5FFF211B5DD62EA00B17 /* Pods-Go23EthereumAddress_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		78893CD61C692FAAEF5238B2D840FA02 /* Go23EthereumAddress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210DF568E05663F20501D2524AB2E457 /* Build configuration list for PBXNativeTarget "Go23EthereumAddress" */;
+			buildPhases = (
+				E4B9DE58993E05DD59D71A39F022FC8A /* Headers */,
+				41997584B4023A08111BB6A686FE31D7 /* Sources */,
+				45FF8651B091A51F33E5B8931653BC04 /* Frameworks */,
+				643C99CADACA157F7D8A42C3C9BEA404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Go23EthereumAddress;
+			productName = Go23EthereumAddress;
+			productReference = 4AB6C16DE8A4B4A1BE0F3B7B48D5541F /* Go23EthereumAddress */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF5C04F8DBCB5B278D26F25F579074F6 /* Pods-Go23EthereumAddress_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD6931610FD8245E3A808CFFC61AA16 /* Build configuration list for PBXNativeTarget "Pods-Go23EthereumAddress_Tests" */;
+			buildPhases = (
+				3B356CC61CDD2FFC3DE059C70C2FA135 /* Headers */,
+				A1C0DFCC18ADEC878A1186D405874564 /* Sources */,
+				44D9818995C6F61865662F1FA756526A /* Frameworks */,
+				3C64C303FCE8061CD711F1CD1D5E9CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				784D55B9A7FAA253E844745F848525B6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Go23EthereumAddress_Tests";
+			productName = Pods_Go23EthereumAddress_Tests;
+			productReference = B32127D14BCDE87F1D194AA41F7E3D0F /* Pods-Go23EthereumAddress_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DA53F498DB73D6F32DFFFCC8EEC9CE2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78893CD61C692FAAEF5238B2D840FA02 /* Go23EthereumAddress */,
+				5DCD8F958782559836DDC287ECC63202 /* Pods-Go23EthereumAddress_Example */,
+				BF5C04F8DBCB5B278D26F25F579074F6 /* Pods-Go23EthereumAddress_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C64C303FCE8061CD711F1CD1D5E9CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8855AB5A21347EA9765E6D50DBF23D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643C99CADACA157F7D8A42C3C9BEA404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41997584B4023A08111BB6A686FE31D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859DB2DA7CCDF6BCA1E5E9342DDBE37E /* Go23EthereumAddress-dummy.m in Sources */,
+				2A216A724F20EDD96CCE2B0DA416AFD7 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		601C3D91F1A78D4A1CAE1C5F551B9822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831FE2DCF7659B75C27EF471512BAE29 /* Pods-Go23EthereumAddress_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C0DFCC18ADEC878A1186D405874564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7EEC30AFC1CA742D8B75FE1B37B784 /* Pods-Go23EthereumAddress_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3105669A4864E6576076338C96812477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Go23EthereumAddress;
+			target = 78893CD61C692FAAEF5238B2D840FA02 /* Go23EthereumAddress */;
+			targetProxy = 8D5FAD8857BE41AF9B17DC2711F0D1AD /* PBXContainerItemProxy */;
+		};
+		784D55B9A7FAA253E844745F848525B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Go23EthereumAddress_Example";
+			target = 5DCD8F958782559836DDC287ECC63202 /* Pods-Go23EthereumAddress_Example */;
+			targetProxy = 7336AD81D224164CCB9E7FF44AB92FDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		069EA93FBE9487446EAC25A685DB0365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B50652C1595669111BAD40EC1FDCD021 /* Pods-Go23EthereumAddress_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Go23EthereumAddress_Example/Pods-Go23EthereumAddress_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Go23EthereumAddress_Example/Pods-Go23EthereumAddress_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69146A8D0E1C1D3D259C6FB8D8EB26F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF72592928F62664E88683523DD9C883 /* Go23EthereumAddress.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Go23EthereumAddress/Go23EthereumAddress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Go23EthereumAddress/Go23EthereumAddress-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Go23EthereumAddress/Go23EthereumAddress.modulemap";
+				PRODUCT_MODULE_NAME = Go23EthereumAddress;
+				PRODUCT_NAME = Go23EthereumAddress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9968E95F5CB86099C1D0C3EA94D65AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5DAF8D5E3574A58E056F07AABB9ED5 /* Pods-Go23EthereumAddress_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Go23EthereumAddress_Example/Pods-Go23EthereumAddress_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Go23EthereumAddress_Example/Pods-Go23EthereumAddress_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D06F682E315C0F7D9D9D50BFEA4A4F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B3B633FFE29BB08E977E445CC16EED /* Pods-Go23EthereumAddress_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Go23EthereumAddress_Tests/Pods-Go23EthereumAddress_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Go23EthereumAddress_Tests/Pods-Go23EthereumAddress_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA1322362A50048B1B423E2177B5CA8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88F3A8370C099B233782A1B4F4E1804 /* Pods-Go23EthereumAddress_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Go23EthereumAddress_Tests/Pods-Go23EthereumAddress_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Go23EthereumAddress_Tests/Pods-Go23EthereumAddress_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF8E34B12A94980B8881D0138B87CAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99A116BCF1848306ECBBE7A731F45CA /* Go23EthereumAddress.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Go23EthereumAddress/Go23EthereumAddress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Go23EthereumAddress/Go23EthereumAddress-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Go23EthereumAddress/Go23EthereumAddress.modulemap";
+				PRODUCT_MODULE_NAME = Go23EthereumAddress;
+				PRODUCT_NAME = Go23EthereumAddress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DD6931610FD8245E3A808CFFC61AA16 /* Build configuration list for PBXNativeTarget "Pods-Go23EthereumAddress_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06F682E315C0F7D9D9D50BFEA4A4F20 /* Debug */,
+				DA1322362A50048B1B423E2177B5CA8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		210DF568E05663F20501D2524AB2E457 /* Build configuration list for PBXNativeTarget "Go23EthereumAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8E34B12A94980B8881D0138B87CAEE /* Debug */,
+				69146A8D0E1C1D3D259C6FB8D8EB26F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1A34E124911126D2629D28155AB55B /* Build configuration list for PBXNativeTarget "Pods-Go23EthereumAddress_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9968E95F5CB86099C1D0C3EA94D65AEA /* Debug */,
+				069EA93FBE9487446EAC25A685DB0365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

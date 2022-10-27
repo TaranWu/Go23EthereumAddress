@@ -1,0 +1,6 @@
+framework module Go23EthereumAddress {
+  umbrella header "Go23EthereumAddress-umbrella.h"
+
+  export *
+  module * { export * }
+}

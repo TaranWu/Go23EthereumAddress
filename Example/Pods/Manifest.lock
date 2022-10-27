@@ -1,0 +1,16 @@
+PODS:
+  - Go23EthereumAddress (0.1.0)
+
+DEPENDENCIES:
+  - Go23EthereumAddress (from `../`)
+
+EXTERNAL SOURCES:
+  Go23EthereumAddress:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Go23EthereumAddress: a846703bb483271586b426ab042b6331ed71e2e1
+
+PODFILE CHECKSUM: f16cc9af6789f616ce87f162e2a132c6fc5297d8
+
+COCOAPODS: 1.11.3
